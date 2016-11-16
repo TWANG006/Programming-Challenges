@@ -86,13 +86,15 @@ int main()
 			{
 				if (tempN % 2 == 0)
 				{
-					tempN /= 2;
+					tempN >>= 1;
+					iTempSum++;
 				}
 				else
 				{
 					tempN = 3 * tempN + 1;
+					tempN >>= 1;
+					iTempSum += 2;
 				}
-				iTempSum++;
 			}
 			if (max < iTempSum)
 				max = iTempSum;

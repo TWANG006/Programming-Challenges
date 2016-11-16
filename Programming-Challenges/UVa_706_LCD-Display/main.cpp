@@ -43,12 +43,187 @@ Sample Output
 */
 
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
 int main()
 {
+	int s = 0; 	// size of LCD digits 	
+	char n[9];	// Vector to accept the input
 
+	char LCDdigits[8][24][12];
+	char LCDdigit[24][12];
 
+	while (cin >> s)
+	{
+		cin >> n;
+
+		if (s == 0 && strlen(n) == 1 && n[0] == '0')
+			break;
+
+		//1. Traverse all the input digits
+		for (int i = 0; i < strlen(n); i++)
+		{
+			//2. Clear the contents in LCD digit
+			for (int j = 0; j < 2 * s + 3; j++)
+			{
+				for (int k = 0; k < s + 2; k++)
+				{
+					LCDdigit[j][k] = ' ';
+				}
+			}
+			
+			//3. There are 10 cases in total
+			switch (n[i])
+			{
+			case '0':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l][0] = '|';
+					LCDdigit[l + s + 1][0] = '|';
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '1':
+				for (int l = 1; l <= s; l++)
+				{
+					// |
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '2':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[s + 1][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l + s + 1][0] = '|';
+					LCDdigit[l][s + 1] = '|';
+				}
+				break;
+			case '3':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[s + 1][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '4':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[s + 1][l] = '-';
+					// |
+					LCDdigit[l][0] = '|';
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '5':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[s + 1][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l][0] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '6':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[s + 1][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l][0] = '|';
+					LCDdigit[l + s + 1][0] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '7':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					// |
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '8':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[s + 1][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l][0] = '|';
+					LCDdigit[l + s + 1][0] = '|';
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			case '9':
+				for (int l = 1; l <= s; l++)
+				{
+					// - 
+					LCDdigit[0][l] = '-';
+					LCDdigit[s + 1][l] = '-';
+					LCDdigit[2 * s + 2][l] = '-';
+					// |
+					LCDdigit[l][0] = '|';
+					LCDdigit[l][s + 1] = '|';
+					LCDdigit[l + s + 1][s + 1] = '|';
+				}
+				break;
+			}
+
+			//4. give LCDdigit to LCDdigits
+			for (int j = 0; j < 2 * s + 3; j++)
+			{
+				for (int k = 0; k < s + 2; k++)
+				{
+					LCDdigits[i][j][k] = LCDdigit[j][k];
+				}
+			}
+		}
+
+		//5. Print the results
+
+		for (int j = 0; j < 2 * s + 3; j++)
+		{
+			for (int i = 0; i < strlen(n); i++)
+			{
+				for (int k = 0; k < s + 2; k++)
+				{
+					cout << LCDdigits[i][j][k];
+				}
+				if (i < strlen(n) - 1)
+					cout << ' ';
+			}
+			cout << endl;
+		}
+		cout << endl;		
+	}
+	
 	return 0;
 }
