@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{32F28224-B16F-489D-8FEB-D2D09C77608F}</ProjectGuid>
+    <ProjectGuid>{563A3B47-A093-4DCD-9A43-F96FBC508176}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Watermelon</RootNamespace>
+    <RootNamespace>UVa_10137_TheTrip</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>A.Watermelon</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

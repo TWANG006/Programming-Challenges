@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{61F27DAA-3200-4A86-A32D-87F9C4AF7415}</ProjectGuid>
+    <ProjectGuid>{D320E2A0-3801-4ECB-BB43-68A853A1E213}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DisjointSet</RootNamespace>
+    <RootNamespace>UVa_706_LCDDisplay</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Others_Disjoint-Set</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,10 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="disjoint-set.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="disjoint-set.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

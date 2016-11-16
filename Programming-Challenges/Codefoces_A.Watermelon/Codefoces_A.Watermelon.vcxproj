@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{61F27DAA-3200-4A86-A32D-87F9C4AF7415}</ProjectGuid>
+    <ProjectGuid>{32F28224-B16F-489D-8FEB-D2D09C77608F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DisjointSet</RootNamespace>
+    <RootNamespace>Watermelon</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Others_Disjoint-Set</ProjectName>
+    <ProjectName>Codefoces_A.Watermelon</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,10 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="disjoint-set.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="disjoint-set.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

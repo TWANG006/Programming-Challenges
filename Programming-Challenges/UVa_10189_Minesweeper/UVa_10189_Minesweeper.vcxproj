@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{61F27DAA-3200-4A86-A32D-87F9C4AF7415}</ProjectGuid>
+    <ProjectGuid>{FE7DA28C-EA97-49A6-BA46-DAE62AE041D1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DisjointSet</RootNamespace>
+    <RootNamespace>UVa_Minesweeper</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Others_Disjoint-Set</ProjectName>
+    <ProjectName>UVa_10189_Minesweeper</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,10 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="disjoint-set.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="disjoint-set.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
