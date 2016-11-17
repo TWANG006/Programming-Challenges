@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_10137_The-Trip", "UVa_1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_706_LCD-Display", "UVa_706_LCD-Display\UVa_706_LCD-Display.vcxproj", "{D320E2A0-3801-4ECB-BB43-68A853A1E213}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_10267_Graphical-Editor", "UVa_10267_Graphical-Editor\UVa_10267_Graphical-Editor.vcxproj", "{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{D320E2A0-3801-4ECB-BB43-68A853A1E213}.Release|x64.Build.0 = Release|x64
 		{D320E2A0-3801-4ECB-BB43-68A853A1E213}.Release|x86.ActiveCfg = Release|Win32
 		{D320E2A0-3801-4ECB-BB43-68A853A1E213}.Release|x86.Build.0 = Release|Win32
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Debug|x64.ActiveCfg = Debug|x64
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Debug|x64.Build.0 = Debug|x64
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Debug|x86.Build.0 = Debug|Win32
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Release|x64.ActiveCfg = Release|x64
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Release|x64.Build.0 = Release|x64
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Release|x86.ActiveCfg = Release|Win32
+		{76CA75DA-0E31-42CB-BFC5-F8F8FFD683B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
