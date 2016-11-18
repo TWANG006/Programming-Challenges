@@ -72,8 +72,18 @@ JJJJJ
 */
 
 #include <iostream>
+#include <vector>
+#include <string>
 
 using namespace std;
+
+void I(vector<string>& img, int M, int N);					// Initialize the image to 0
+void C(vector<string>& img);								// Clear the image to 0
+void L(vector<string>& img, int X, int Y, char C);			// Color I(Y,X) to C
+void V(vector<string>& img, int X, int Y1, int Y2, char C);	// Color I(Y1-Y2, X) to C
+void K(vector<string>& img, int X1, int Y1, int X2, int Y2, char C); // Color (Y1-Y2, X1-X2) to C
+void F(vector<string>& img, int X, int Y, char C);			// Color a region R
+void S(const vector<string>&img, const char* filename);		// Output image
 
 int main()
 {
