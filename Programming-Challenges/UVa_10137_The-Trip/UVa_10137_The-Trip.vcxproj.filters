@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\src\UVa_10137_The-Trip.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

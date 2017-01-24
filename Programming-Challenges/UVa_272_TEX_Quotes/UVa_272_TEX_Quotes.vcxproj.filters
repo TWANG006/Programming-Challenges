@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\UVa_10267_Graphical-Editor.cpp">
+    <ClCompile Include="..\src\UVa_272_TEX_Quotes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

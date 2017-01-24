@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\src\UVa_706_LCD-Display.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

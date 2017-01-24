@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\UVa_10137_The-Trip.cpp" />
+    <ClCompile Include="..\src\UVa_10911_Forming-Quiz-Teams.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{563A3B47-A093-4DCD-9A43-F96FBC508176}</ProjectGuid>
+    <ProjectGuid>{040A7825-3E4B-4A2C-A98C-E09A5A026B8E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>UVa_10137_TheTrip</RootNamespace>
+    <RootNamespace>UVa_10911_FormingQuizTeams</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
