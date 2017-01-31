@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EE3BED01-C479-4B8B-BE18-B176A44EC81D}</ProjectGuid>
+    <ProjectGuid>{61BE4E61-5B43-4A3A-A793-0F107F6C1130}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>UVa_10114_LoansomeCarBuyer</RootNamespace>
+    <RootNamespace>UVa_12503_RobotInstructions</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -150,7 +150,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\UVa_10114_Loansome-Car-Buyer.cpp" />
+    <ClCompile Include="..\src\UVa_12503_Robot-Instructions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

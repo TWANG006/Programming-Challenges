@@ -73,6 +73,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_11942_Lumberjack-Sequen
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_12015_Google-is-Feeling-Lucky", "UVa_12015_Google-is-Feeling-Lucky\UVa_12015_Google-is-Feeling-Lucky.vcxproj", "{44C98CD1-696A-4193-9CA3-5194804A8251}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_12468_Zapping", "UVa_12468_Zapping\UVa_12468_Zapping.vcxproj", "{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_12503_Robot-Instructions", "UVa_12503_Robot-Instructions\UVa_12503_Robot-Instructions.vcxproj", "{61BE4E61-5B43-4A3A-A793-0F107F6C1130}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +365,22 @@ Global
 		{44C98CD1-696A-4193-9CA3-5194804A8251}.Release|x64.Build.0 = Release|x64
 		{44C98CD1-696A-4193-9CA3-5194804A8251}.Release|x86.ActiveCfg = Release|Win32
 		{44C98CD1-696A-4193-9CA3-5194804A8251}.Release|x86.Build.0 = Release|Win32
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Debug|x64.ActiveCfg = Debug|x64
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Debug|x64.Build.0 = Debug|x64
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Debug|x86.Build.0 = Debug|Win32
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Release|x64.ActiveCfg = Release|x64
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Release|x64.Build.0 = Release|x64
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Release|x86.ActiveCfg = Release|Win32
+		{D356D34F-CB2A-4FD3-9FC1-07EDA9F9D7B2}.Release|x86.Build.0 = Release|Win32
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Debug|x64.ActiveCfg = Debug|x64
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Debug|x64.Build.0 = Debug|x64
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Debug|x86.ActiveCfg = Debug|Win32
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Debug|x86.Build.0 = Debug|Win32
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Release|x64.ActiveCfg = Release|x64
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Release|x64.Build.0 = Release|x64
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Release|x86.ActiveCfg = Release|Win32
+		{61BE4E61-5B43-4A3A-A793-0F107F6C1130}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
