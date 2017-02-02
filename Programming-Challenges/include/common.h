@@ -7,7 +7,14 @@
 #include <cstring>
 #include <vector>
 #include <bitset>
+#include <map>
 
+typedef pair<int,int> ii;
+typedef vector<ii> vii;
+typedef vector<int> vi;
+
+#define REP(i, a, b) for(int i=int(a); i<=int(b); i++)
 const double pi = 2 * acos(0.0);
+
 
 #endif // !COMMON_H_
