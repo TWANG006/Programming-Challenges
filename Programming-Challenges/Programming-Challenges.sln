@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_00696_How-Many-Knights"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_10284_Chessboard-in-FEN", "UVa_10284_Chessboard-in-FEN\UVa_10284_Chessboard-in-FEN.vcxproj", "{C4A9B107-7D98-4755-996F-136D0D644803}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa_00489_Hangman-Judge", "UVa_00489_Hangman-Judge\UVa_00489_Hangman-Judge.vcxproj", "{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -591,6 +593,14 @@ Global
 		{C4A9B107-7D98-4755-996F-136D0D644803}.Release|x64.Build.0 = Release|x64
 		{C4A9B107-7D98-4755-996F-136D0D644803}.Release|x86.ActiveCfg = Release|Win32
 		{C4A9B107-7D98-4755-996F-136D0D644803}.Release|x86.Build.0 = Release|Win32
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Debug|x64.ActiveCfg = Debug|x64
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Debug|x64.Build.0 = Debug|x64
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Debug|x86.Build.0 = Debug|Win32
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Release|x64.ActiveCfg = Release|x64
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Release|x64.Build.0 = Release|x64
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Release|x86.ActiveCfg = Release|Win32
+		{5E20DC1C-D68D-4B95-9278-858EA74DAFAA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
