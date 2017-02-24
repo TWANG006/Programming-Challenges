@@ -4,6 +4,7 @@
 
 int main()
 {
+	int tc = 1;
 
 
 	return 0;
